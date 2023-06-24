@@ -33,7 +33,7 @@ namespace Ejercicio1
              * elementos que ingresan a la lista sean distintos, seran escritos
              * en el archivo de texto "numerosAleatorios.txt"
              */
-            while (myHashSet.Count() < 20)
+            while (myHashSet.Count() < 500)
             {
                 lastElem = rnd.Next(1, 6500);
                 
